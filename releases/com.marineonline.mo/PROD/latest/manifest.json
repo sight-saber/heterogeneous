@@ -1,0 +1,10 @@
+{
+  "appId": "com.marineonline.mo",
+  "environment": "PROD",
+  "channel": "latest",
+  "schemaVersion": 1,
+  "revision": 1,
+  "releaseId": "prod-2.1.77-e4ba952c3bcd",
+  "historyPath": "history/prod-2.1.77-e4ba952c3bcd/manifest.json",
+  "sha256": "e06a764df120f2aa2073ade44065545f52d603842676b7db29b13072e9ff1831"
+}
