@@ -1,0 +1,151 @@
+{
+  "appId": "com.marineonline.mo",
+  "environment": "PROD",
+  "channel": "latest",
+  "schemaVersion": 1,
+  "releaseId": "prod-1.0.0-870a0de1ee67",
+  "updateType": "app",
+  "appVersion": "1.0.0",
+  "staticVersion": "1.0.0",
+  "bundledStaticVersion": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "minSupportedAppVersion": "1.0.0",
+  "previousVersion": null,
+  "rollbackTarget": null,
+  "rollbackReason": null,
+  "mandatory": {
+    "app": false,
+    "static": false
+  },
+  "mandatoryReason": {
+    "app": null,
+    "static": null
+  },
+  "assets": {
+    "app": [
+      {
+        "platform": "darwin",
+        "arch": "arm64",
+        "format": "zip",
+        "path": "app/1.0.0/darwin/arm64/Middle-Office-1.0.0-arm64-mac.zip",
+        "size": 134014512,
+        "sha512": "m0saB7wEeuITkPJb+nihkfQePSmOYlECFn0evEpd18hVHt3BJ2PYSE9l+8xqMQIBp+43eXz0md7EdPMM4Fj15w=="
+      },
+      {
+        "platform": "linux",
+        "arch": "x64",
+        "format": "deb",
+        "path": "app/1.0.0/linux/x64/Middle-Office-1.0.0-linux-amd64.deb",
+        "size": 106573016,
+        "sha512": "/In35UW9ovFRY1seLDOLoccA2VFVYfYsQgNfzmOstsK/6SHLEkwSvbGPnedsV5GcYScTyRAMXVzspVPqnyJaZA=="
+      },
+      {
+        "platform": "linux",
+        "arch": "x64",
+        "format": "AppImage",
+        "path": "app/1.0.0/linux/x64/Middle-Office-1.0.0-linux-x86_64.AppImage",
+        "size": 133700000,
+        "sha512": "l5Yl3PwTJoIFYTMXHHFyv6Q9m60ELByjExAQd2TjIF8HoFcS5e/KR3WXhAkgVRGQvtbgv48s5fJXZTqKFsoHFQ=="
+      },
+      {
+        "platform": "linux",
+        "arch": "x64",
+        "format": "rpm",
+        "path": "app/1.0.0/linux/x64/Middle-Office-1.0.0-linux-x86_64.rpm",
+        "size": 95738573,
+        "sha512": "H95aAS+rsjuJuLUOLg3gRzUsSNLKAxMKhVH2K5utkjS/UTrVbyNT9EpjiOECh5zfw9nLfPTBpfPxnqPZ/3mftA=="
+      },
+      {
+        "platform": "darwin",
+        "arch": "arm64",
+        "format": "dmg",
+        "path": "app/1.0.0/darwin/arm64/Middle-Office-1.0.0-mac-arm64.dmg",
+        "size": 137378873,
+        "sha512": "i+D3l6C2sHyo1pudO6+rbOa85I57vAZFpt0W36goxEvge0XbDAifIrbrKRGoBCjouoPqaUaUvLFuD+R1TrQWBw=="
+      },
+      {
+        "platform": "darwin",
+        "arch": "x64",
+        "format": "dmg",
+        "path": "app/1.0.0/darwin/x64/Middle-Office-1.0.0-mac-x64.dmg",
+        "size": 144203278,
+        "sha512": "AG2k/oyD3iPIG2TIap8W/fKM/wExQ6qT95LyxKaCsqYqxxDvAy2EBhfeRpFq8WRik2b526C5yv939VdgXGD97w=="
+      },
+      {
+        "platform": "darwin",
+        "arch": "x64",
+        "format": "zip",
+        "path": "app/1.0.0/darwin/x64/Middle-Office-1.0.0-mac.zip",
+        "size": 141051625,
+        "sha512": "f+PPDejrUHDoTI0GQkcV0UppmsOQ+w2KMMuMmImcMQr7xYtnBYfp/wIKio/KQBu5gxc6w8LKk2qwa0wpBLGdlA=="
+      },
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "format": "exe",
+        "path": "app/1.0.0/win32/x64/Middle-Office-1.0.0-win-x64-Setup.exe",
+        "size": 127472920,
+        "sha512": "wBeHmqaxsREsPOD4qPR7UJw8jx3KmGspp+s5VfHQ41IwEtkn5Jhx1EybrS8V9eLkpm+QpSzQIP5yFI2L/G4MjA=="
+      },
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "format": "appx",
+        "path": "app/1.0.0/win32/x64/Middle-Office-1.0.0-win-x64.appx",
+        "size": 172577468,
+        "sha512": "vazNXi8CjDCmzpOQlP99ngogw9WGIZbZONUD6edipvutMNLW5hCPxsU2Bu2FJjNXXhpMRqkGjIDhv+wiUf3gwA=="
+      },
+      {
+        "platform": "win32",
+        "arch": "x64",
+        "format": "msi",
+        "path": "app/1.0.0/win32/x64/Middle-Office-1.0.0-win-x64.msi",
+        "size": 133528715,
+        "sha512": "qujRAbvgXiwqLVPZI0ukIVHK/oWjxi62LLWr+Qe6zhSyb6+3qrxImlINZccU7zrt0mrfC+dmimIE2WExQf07Pg=="
+      }
+    ],
+    "static": null,
+    "update": [
+      {
+        "path": "updates/1.0.0/latest-linux.yml",
+        "size": 1068,
+        "sha512": "ZLerMUt9HMU+QZ0ujW+WMBIyBerNGFJ5CPc0BXjFtiovCo7kTREL/7QJ0j0ysJLmmLTVW8HwJDeMubpuSKlJEQ=="
+      },
+      {
+        "path": "updates/1.0.0/latest-mac.yml",
+        "size": 754,
+        "sha512": "HWs9DLEeX8g1H8VUhF0v0b6C5BUIIWTO256wTMuoMgvtZIMe/BoTBJ+uSe+411e+UmgDXfF4XA7x8zYlvrAx0A=="
+      },
+      {
+        "path": "updates/1.0.0/latest.yml",
+        "size": 371,
+        "sha512": "TGb5gZBonm6xK639AINWsThsN15veJz/h6irSbACcbfOT/M8ZDbSrYeoddRD1T64wElYbbME7q/jWWJgbCglxA=="
+      },
+      {
+        "path": "updates/1.0.0/Middle-Office-1.0.0-arm64-mac.zip.blockmap",
+        "size": 142007,
+        "sha512": "gQstVdZIZCM5h4jKmoZ8VKW0gX805qUVyioOf3QEd2fludWyruQVAdPTP9WgkNxZhLXTTSvy1Q2LC7QOXj3yzQ=="
+      },
+      {
+        "path": "updates/1.0.0/Middle-Office-1.0.0-mac.zip.blockmap",
+        "size": 147821,
+        "sha512": "b2RBXLC01GwgYq9kMmmYrfvVFDjgB2d6817wQ5EUoCBTWmxYVmOMoNHhikF/EzYV1WA7D8xLj8oqKXVrKPGI1w=="
+      },
+      {
+        "path": "updates/1.0.0/Middle-Office-1.0.0-win-x64-Setup.exe.blockmap",
+        "size": 135407,
+        "sha512": "Bk/IpIf5yLsyYqlzPtLzhjgZtnFTUuaUcFTSjFiRXMcG4+vnKLJP7CuFBFjQjNHZP7fNsdF4/bm7MJiFOJrNjw=="
+      },
+      {
+        "path": "updates/1.0.0/SHA256SUMS.txt",
+        "size": 1572,
+        "sha512": "qP+y9JuCn28CCnRl/k34noHDcvUrX+9jDzDmenO7GuPxcBa4yburZjZQTjokAs9B4FDiQwx32PqNRHjkHPLtow=="
+      },
+      {
+        "path": "updates/1.0.0/SHA512SUMS.txt",
+        "size": 2596,
+        "sha512": "LfUXA3JRx9jN73wHgxk1kzHRh8VZmWWX4tVzRTOTWVPE3LwE0aQBGgWIKBReWRr/Dz3blmmGsm7f4CWdLiG4Sw=="
+      }
+    ]
+  }
+}
